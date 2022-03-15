@@ -21,7 +21,7 @@
 <body>
 
 
-
+    <div class="preLoader"></div>
 
 
     <section x-data="togglesidebar">
@@ -588,7 +588,13 @@
 
 
 
+    <script>
+        let loadevent = document.querySelector('.preLoader');
 
+        window.addEventListener('load', function () {
+            loadevent.style.display = 'none'
+        })
+    </script>
 
 
 </body>

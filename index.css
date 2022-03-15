@@ -281,3 +281,18 @@ a{
 
 
 
+
+/* preloader */
+
+
+.preLoader {
+    background: #000 url(./images/7b736a33be802fc2e737e3df56b4ef0e.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 99999999;
+}
+

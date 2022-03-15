@@ -20,7 +20,7 @@
 
 <body>
 
-
+    <div class="preLoader"></div>
 
     <section x-data="togglesidebar">
         <section x-cloak class="sidebar" :class="open || 'inactive'">
@@ -526,44 +526,11 @@
 
 
 
-
-
                     </div>
                 </div>
             </div>
         </section>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -598,7 +565,13 @@
 
 
    
+    <script>
+        let loadevent = document.querySelector('.preLoader');
 
+        window.addEventListener('load', function () {
+            loadevent.style.display = 'none'
+        })
+    </script>
     
 
 </body>
