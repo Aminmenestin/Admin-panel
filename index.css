@@ -31,6 +31,8 @@
 
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: "Vazir" !important;
     background: url(images/bg.jpg) no-repeat;
     background-size: cover;
@@ -286,10 +288,10 @@ a{
 
 
 .preLoader {
-    background: #000 url(./images/7b736a33be802fc2e737e3df56b4ef0e.gif);
+    background: #001d30 url(./images/7b736a33be802fc2e737e3df56b4ef0e.gif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 15%;
+    background-size: 30%;
     height: 100vh;
     width: 100%;
     position: fixed;
